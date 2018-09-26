@@ -2,13 +2,13 @@ package helloWorld;
 
 public class SayHello {
 
-    private final String content;
+    private final String personName;
 
-    public SayHello(String content) {
-        this.content = content;
+    public SayHello(String personName) {
+        this.personName = personName;
     }
 
-    public String getContent() {
-        return content;
+    public String getPersonName() {
+        return personName;
     }
 }

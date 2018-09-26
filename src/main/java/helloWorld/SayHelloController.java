@@ -12,7 +12,7 @@ public class SayHelloController {
     private static final String template = "Hello, %s!";
 
     @RequestMapping(method = GET, value = "/sayHello")
-    public SayHello greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
+    public SayHello sayHello(@RequestParam(value = "name", defaultValue = "World") String name) {
         return new SayHello(String.format(template, name));
     }
 }
