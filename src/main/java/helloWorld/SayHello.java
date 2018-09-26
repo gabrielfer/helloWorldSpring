@@ -2,16 +2,10 @@ package helloWorld;
 
 public class SayHello {
 
-    private final long id;
     private final String content;
 
-    public SayHello(long id, String content) {
-        this.id = id;
+    public SayHello(String content) {
         this.content = content;
-    }
-
-    public long getId() {
-        return id;
     }
 
     public String getContent() {
